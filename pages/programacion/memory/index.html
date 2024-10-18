@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Tangram Memory Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./style.css">
+<link rel="icon" href="..//imagenes/favicon.ico">
+
+</head>
+<body>
+  <video autoplay muted loop playsinline id="background-video">
+    <source src="../VIDEOPERFIL.mp4" type="video/mp4">
+  </video>
+<!-- partial:index.partial.html -->
+<div class="top-section" onclick="window.location.href = '../code2.html';" id="memory">
+  <p>
+      <span>
+          MEMORY TAMGRAM GAME
+      </span>
+  </p>
+</div>
+<p>Encuentra las parejas Tamgram</p>
+<div class="board" id="tangramgrid"></div>
+<svg style="display:none" viewBox="0 0 100 100">
+  <defs>
+    <polygon id="tangram1" points="0 0, 50 50, 0 100" />
+    <polygon id="tangram2" points="50 50, 75 25, 100 50, 75 75" />
+    <polygon id="tangram3" points="0 100, 25 75, 75 75, 50 100"/>
+  </defs>
+</svg>
+<!-- partial -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
