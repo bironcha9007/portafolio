@@ -6,7 +6,7 @@
         "judul": "Pacman",
         "kategori": "HTML Games",
         "lokasi": "./img/porfolio/Games/1.svg",
-        "link": "/pages/programacion/pacman/index.html",
+        "link": "https://bironcha9007.github.io/360viewer/index.html",
         "deskripsi": " ¡Disfruta del clásico juego de Pacman! Recorre el laberinto, come los puntos y evita a los fantasmas para alcanzar la puntuación más alta.",
         "filter": "html games"
     },
@@ -51,7 +51,7 @@
         "judul": "Snake",
         "kategori": "HTML Games",
         "lokasi": "./img/porfolio/Games/3.svg",
-        "link": "pages/programacion/snake/index.html",
+        "link": "/pages/programacion/snake/index.html",
         "deskripsi": "Controla a la serpiente en este adictivo juego clásico. Recoge los puntos para hacer crecer a la serpiente, pero ten cuidado de no chocar contra las paredes o tu propia cola.",
         "filter": "html games"
     },
