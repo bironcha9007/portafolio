@@ -1,0 +1,37 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+  
+  }
+
+  
+  /* Navigation and slider styles */
+
+  
+  .slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  
+    text-align: center;
+    
+  
+  }
+
+  
+  /* Background canvas styles */
+  .background {
+    position: absolute;
+width: 100%;
+    /* Cambiar el ancho al 100% */
+    height: auto;
+    /* Cambiar la altura a auto */
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  

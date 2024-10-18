@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BC-PORTAFOLIO</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/LOGO FINAL2021.ico">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/poli.css">
+  <link rel="stylesheet" href="assets/css/seccion.css">
+  <link rel="stylesheet" href="assets/css/seccion3.css">
+  <link rel="stylesheet" href="assets/css/projects.css">
+  <link rel="stylesheet" href="assets/css/border.css">
+  <link rel="stylesheet" href="assets/css/particles.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"/>
+  <!-- AWESOME ICONS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- BOOTSTRAP ICONS -->
+  <script src="assets/js/destacados.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+  <!-- scroll reveal -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body id="top" style="overflow: hidden">
+  <div class="modal"></div>
+  <nav id="ho">
+    <div class="header">
+      <h2 onclick="openNewWindowVG()" class="logo">
+        VISUAL-<span>GRAPHICMD</span>
+      </h2>
+      <button class="nav-toogle">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </button>
+    </div>
+    <ul class="links">
+      <li><a href="#ho">Home</a></li>
+      <li><a href="#pri">About</a></li>
+      <li><a href="#seccion-skills">Skills</a></li>
+      <li><a href="#reciente">Recientes</a></li>
+      <li><a href="#works">Projects</a></li>
+      <li><a href="#registro">Registro</a></li>
+      <li><a href="#colab">Hablemos</a></li>
+      <li><a onclick="openNewWindowWS()" target="_blank">Contactame</a></li>
+    </ul>
+
+    <div class="social-container">
+      <a onclick="openNewWindowWS()" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+      <a href="" target="_blank"><i class="fa fa-linkedin-in" aria-hidden="true"></i></a>
+      <a href="https://github.com/bironcha9007" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+    </div>
+  </nav>
+  <div class="container contenedor-redes">
+    <ul>
+      <a href="https://github.com/bironcha9007" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/bayron-oswaldo-castillo-mirque-169068ba/" target="_blank">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+
+      <a href="mailto:bayroncastillo900725@gmail.com" target="_blank">
+        <i class="fa-regular fa-envelope"></i>
+      </a>
+    </ul>
+  </div>
+
+  <div class="containerpar">
+    <canvas class="background"></canvas>
+  </div>
+  <div class="containerp" id="home">
+    <div class="grid">
+      <div style="background-image: url('assets/images/games.png')" onclick="scrollToSection('html games')">
+        1
+      </div>
+      <div style="background-image: url('assets/images/LOGIN.png')" onclick="scrollToSection('login')">
+        2
+      </div>
+      <div style="background-image: url('assets/images/WEB.png')" onclick="scrollToSection('web store')">
+        3
+      </div>
+      <div style="background-image: url('assets/images/chat.png')" onclick="scrollToSection('chat bot')">
+        4
+      </div>
+      <div style="background-image: url('assets/images/react.png')" onclick="scrollToSection('react app')">
+        5
+      </div>
+      <div style="background-image: url('assets/images/fig.png')" onclick="scrollToSection('figma')">
+        6
+      </div>
+      <div style="background-image: url('assets/images/sql.png')" onclick="scrollToSection('SQL')">
+        7
+      </div>
+      <div style="background-image: url('assets/images/js.png')" onclick="scrollToSection('javascript')">
+        8
+      </div>
+      <div style="background-image: url('assets/images/py.png')" onclick="scrollToSection('python')">
+        9
+      </div>
+    </div>
+  </div>
+  <section class="about" id="about">
+    <section class="about seccion2" id="pri">
+      <div class="caja__contenido2"><label class="titulo-skills">DISEÑO Y PROGRAMACIÓN</label></div>
+      
+    </section>
+
+    <div class="rows">
+      <div class="image">
+        <img src="assets/images/VISYUAL.svg" alt="" />
+      </div>
+
+      <div class="content">
+        <p>
+          Somos Visual GraphicMD Una solución para tus dilemas de Diseño y
+          Estilo para tu Web... somos expertos en Diseño Grafico y
+          Programación Web, como la creación de logotipos para empresas, el
+          diseño de sitios web o aplicaciones conoce mis proyectos más
+          recientes de:
+        </p>
+
+        <div class="icons-container">
+          <div class="icons" onclick="scrollToSectiona('works')">
+            <img src="assets/images/WEB1.svg" alt="" />
+            <h3>CODE PROJECTS</h3>
+          </div>
+          <div class="icons" onclick="scrollToSectiona('depro')">
+            <img src="assets/images/DESIGN.svg" alt="" />
+            <h3>DESIGN PROJECTS</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion2" id="seccion-skills">
+    <div class="caja">
+      <div class="caja__contenido">
+        <label class="titulo-skills">DEVELOP SKILLS</label>
+        <p>
+          Soy un apasionado programador web con sólidos conocimientos en
+          HTML5, CSS, CSS3, JavaScript, SQL y React. Mi experiencia incluye el
+          manejo eficiente de Git Hub, la creación de juegos, el desarrollo
+          con Python y la integración de APIs. Con un enfoque centrado en la
+          calidad y la innovación, estoy comprometido a llevar las
+          experiencias web al siguiente nivel.
+        </p>
+      </div>
+      <div class="caja__iconos caja-skills">
+        <div class="contenedor-iconos">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-js"></i>
+
+          <i class="fa-brands fa-react"></i>
+
+          <i class="fa-brands fa-node"></i>
+          <div class="icono-npm"></div>
+          <div class="icono-typescript"></div>
+
+          <i class="fa-brands fa-github"></i>
+
+          <i class="fa-brands fa-figma"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion2" id="reciente">
+    <div class="caja__contenido"><label class="titulo-skills">PROYECTOS MÁS RECIENTES</label></div>
+    
+  </section>
+  <section class="seccion3" id="seccion-projects">
+    <div class="caja1">
+      <p class="subtitulo">
+        Conoce los últimos proyectos realizados, explora en nuestros modulos
+        avanzados para tu pagina web, desde consumo de API'S hasta video
+        juegos clasicos para tu página.
+      </p>
+    </div>
+
+    <div class="seccion3__contenedor" id="contenedor-proyectos">
+      <!-- ////////////////////////////////// -->
+      <template id="template-proyecto">
+        <article class="proyecto">
+          <div class="contenido">
+            <!-- contenedor datos -->
+            <div class="contenedor-datos">
+              <span class="nombre"></span>
+              <span class="fecha"></span>
+              <p class="descripcion"></p>
+            </div>
+            <!-- contenedor botones -->
+            <div class="contenedor-botones">
+              <a href="/index.html" target="_blank" class="link-website">
+                <button>
+                  Website&nbsp;&nbsp;
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </button>
+              </a>
+              <a href="https://github.com/bironcha9007" target="_blank" class="link-github">
+                <button>
+                  Github&nbsp;&nbsp;
+                  <i class="fa-brands fa-github"></i>
+                </button>
+              </a>
+            </div>
+            <!-- ------------------- -->
+          </div>
+        </article>
+      </template>
+    </div>
+    <!-- ////////////////////////////////// -->
+    <div class="contenedor-more titulo-more-projects">
+      <a href="https://github.com/bironcha9007" target="_blank">
+        <span>Ver más&nbsp;&nbsp;</span>
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </div>
+  </section>
+
+  <section id="works">
+    <div class="g-works">
+      <div class="g-works-text">
+        <h3>CODE PROJECTS</h3>
+        <p>Selecciona la Categoria y Observa</p>
+      </div>
+      <div class="works-button">
+        <button class="active" data-category="all">All</button>
+        <button data-category="html games">html games</button>
+        <button data-category="login">Login</button>
+        <button data-category="web store">Web Store</button>
+        <button data-category="chat bot">Chat Bot</button>
+        <button data-category="react app">React App</button>
+        <button data-category="figma">Figma</button>
+        <button data-category="sql">SQL</button>
+        <button data-category="javascript">JavaScript</button>
+        <button data-category="python">Python</button>
+      </div>
+      <div class="works-list"></div>
+      <div class="show-more-container">
+        <button id="show-more-btn">Ver Más</button>
+      </div>
+    </div>
+  </section>
+
+  <!--  
+        <div class="container" style="background: #1a1a1a; ">
+          <section class="seccion2" id="web" >
+            <div class="caja__contenido">
+              <label class="titulo-skills">WEB PAGES</label>
+        </section>
+            <div class="grid-container" id="ab">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+            </div>
+
+        </div>
+
+    <div class="container" style="background: #1a1a1a; ">
+      <section class="seccion2" id="log" >
+        <div class="caja__contenido">
+          <label class="titulo-skills">LOGIN MODULE</label>
+    </section>
+        <div class="flex-container" id="pr">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+       
+    </div>
+
+    <div class="container" style="background: #1a1a1a; ">
+      <section class="seccion2" id="360" >
+        <div class="caja__contenido">
+          <label class="titulo-skills">360° SLIDER</label>
+    </section>
+        <div class="grid-container" id="co">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+
+    </div>
+-->
+  <div class="container" style="background: #1a1a1a">
+    <section class="seccion2" id="depro">
+      <div class="caja__contenido"><label class="titulo-skills">DESIGN PROJECTS</label></div>
+      
+    </section>
+
+    <div class="flex-container" id="se">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+    </div>
+  </div>
+
+  <div>
+    <iframe style="width: 100%; height: 100vh" src="contact-form/register.html" frameborder="0" id="registro"></iframe>
+  </div>
+
+  <section id="collaborate" class="colab">
+    <div class="colaboration" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300"
+      data-aos-easing="ease-in-out">
+      <h3>Visual-GraphicMD</h3>
+      <a href="http://wa.me/+573012491404">HABLEMOS<span>ya</span></a>
+      <div class="kotak"></div>
+      <h2>Diseño</h2>
+      <h1>Programación</h1>
+    </div>
+  </section>
+
+  <footer class="footer-section" id="colab">
+    <div class="containerf">
+      <div class="footer-content pt-5 pb-5">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Explora</h3>
+              </div>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                  <a href="/pages/programacion/code2.html">Programador</a>
+                </li>
+                <li><a href="/pages/diseño/diseño.html">Diseñador</a></li>
+                <li>
+                  <a href="/pages/videogames/videogames.html">Video Juegos</a>
+                </li>
+                <li>
+                  <a href="/pages/contacto/contacto.html">Contactame</a>
+                </li>
+                <li><a href="/pages/perfil/perfil.html">Perfil</a></li>
+                <li><a href="/index.html">Servicios</a></li>
+                <li><a href="/pages/web/web.html">Web</a></li>
+                <li>
+                  <a href="/pages/diseño/diseño.html#fotografia360">Fotográfia</a>
+                </li>
+                <li>
+                  <a href="/pages/diseño/diseño.html#ilustracion">Ilustración</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Contactame</h3>
+              </div>
+              <div class="footer-text mb-25">
+                <p>Tienes un proyecto en mente...Contactame</p>
+              </div>
+              <div class="subscribe-form">
+                <form id="invite-form" action="https://formspree.io/f/mdorkaqa" method="POST">
+                  <input type="email" name="_replyto" placeholder="Email Address" />
+                  <button type="submit">
+                    <i class="fab fa-telegram-plane"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-area">
+      <div class="containerf">
+        <div class="rows">
+          <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+            <div class="copyright-text">
+              <p>
+                Copyright &copy; 2022, All Right Reserved
+                <a href="/index.html">Visual-GraphicMD</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>0%</a>
+  <div class="cursor" data-cursor></div>
+
+  <script>
+    // Seleccionar todas las imágenes en la página
+    const imagenes = document.querySelectorAll("img");
+
+    // Iterar sobre cada imagen y agregar el atributo draggable="false"
+    imagenes.forEach(function (imagen) {
+      imagen.setAttribute("draggable", "false");
+    });
+
+    // Deshabilitar el menú contextual en todas las imágenes
+    document.addEventListener("contextmenu", function (event) {
+      if (event.target.tagName === "IMG") {
+        event.preventDefault();
+      }
+    });
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    const portfolio = document.querySelectorAll(".works-card");
+    portfolio.forEach((p, i) => {
+      p.dataset.aos = "fade-down";
+      p.dataset.aosDuratio = "2000";
+      p.dataset.aosOffset = "300";
+      p.dataset.aosDelay = i * 100;
+    });
+
+    AOS.init({
+      once: true,
+    });
+  </script>
+
+  <script src="assets/js/projects.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/nw.js"></script>
+  <script src="assets/js/particles.js"></script>
+</body>
+
+</html>
