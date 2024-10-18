@@ -1,0 +1,222 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-around;
+  min-height: 5vh;
+  position: relative;
+
+  align-items: center;
+
+
+  
+  /* Añade posición relativa para permitir el posicionamiento absoluto del contenedor de botones */
+}
+
+
+.button-container {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+align-items: center;
+
+
+
+  bottom: 0;
+  /* Fija el contenedor en la parte inferior de la página */
+  left: 0;
+  /* Asegura que el contenedor esté a lo largo de todo el ancho de la página */
+  /* Añade un color de fondo para el contenedor de botones */
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+@media (min-width: 310px) {
+  .button-container {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    padding: 0px 5px -5px 10px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+bottom: 0px;
+  }
+}
+
+@media (min-width: 540px) {
+  .button-container {
+    width: 100%;
+    height: 15vh;
+  
+    padding: 0px 0px 5px 0px;
+    margin-bottom: 2%;
+  }
+}
+
+@media (min-width: 900px) {
+  .button-container {
+    height: 8vh;
+    
+    padding: 0px 00px 10px 10px;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+  }
+}
+
+.button {
+  background: transparent;
+  color: #cfcfcf;
+  cursor: pointer;
+font-weight: bold;
+  font-family: 'VT323', monospace, sans-serif;
+  font-size: calc(2px + 1.5vw);
+text-justify: distribute;
+  text-transform: uppercase;
+  transition: .5s;
+  border: 1px solid #16bb07;
+  border-radius: 10px;
+margin-top: 1%;
+
+  /* Ajusta el ancho del botón al 100% del ancho disponible */
+
+  /* Asegura que el ancho incluya el padding y el borde */
+}
+
+.button:hover {
+  background: #48ff0067;
+  font-family: 'VT323', monospace, sans-serif;
+
+font-weight: bold;
+  box-shadow: 0 0 1px #89ec7c, 0 0 12px #7cec8b, 0 0 10px #aeec7c, 0 0 10px #85ec7c;
+}
+
+@media (min-width: 320px) {
+  .button {
+    width: 18%;
+    
+    font-family: 'VT323', monospace, sans-serif;
+    padding: 10px 0 10px 0px;
+    font-size: calc(4px + 1.5vw);
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+
+}
+
+@media (min-width: 540px) {
+  .button {
+
+    font-family: 'VT323', monospace;
+    font-size: calc(1px + 1.5vw);
+    width: 18%;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 900px) {
+  .button {
+    width: 18%;
+    font-family: 'VT323', monospace;
+    font-size: calc(1px + 1.5vw);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin-top: -2px;
+    margin-bottom: 5px;
+
+    
+  }
+}
+
+.top-section {
+  width: 100%;
+  top: 0;
+  background: #0000006e;
+  color: rgba(255, 255, 255, 0.25);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.1em;
+  margin-bottom: 0.6em;
+
+  cursor: pointer;
+}
+
+.top-section p {
+    font-size: calc(10px + 1vw);
+    font-family: 'VT323', monospace, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  display: inline-block;
+  border: 4px double rgba(255, 255, 255, 0.25);
+  border-width: 4px 0;
+  padding: 0.5em 0em;
+  width: 100%;
+  margin: 0%;
+  
+  cursor: pointer;
+
+}
+
+.top-section p span {
+  font-size: calc(15px + 1vw);
+  font-family: 'VT323', monospace, sans-serif;
+  letter-spacing: 0;
+font-weight: bold;
+  display: block;
+
+
+  /* Clip Background Image */
+  background: url(https://visualgraphicmd.com.co/imagenes/animated-text-fill_verde.png) repeat-y;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* Animate Background Image */
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+  animation: aitf 80s linear infinite;
+  /* Agregar la versión estándar */
+  /* Activate hardware acceleration for smoother animations */
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  /* Agregar la versión estándar */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  /* Agregar la versión estándar */
+
+}
+
+/* Animate Background Image */
+@-webkit-keyframes aitf {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Agregar la versión estándar del keyframes */
+@keyframes aitf {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@media(max-width: 540px) {
+  .top-section p span {
+    font-size: calc(19px + 1vw);
+    text-align: center;
+  }
+}
+
+@media(min-width: 960px) {
+  .top-section p span {
+    font-size: calc(15px + 1vw);
+    text-align: center;
+  }
+}
