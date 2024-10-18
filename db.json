@@ -15,7 +15,7 @@
         "judul": "Rubik",
         "kategori": "HTML Games",
         "lokasi": "./img/porfolio/Games/2.svg",
-        "link": "/pages/programacion/rubik/index.html",
+        "link": "https://bironcha9007.github.io/portafolio/pages/programacion/rubik/index.html",
         "deskripsi": "Sumérgete en el desafiante mundo del cubo de Rubik en esta versión en línea. Gira, gira y resuelve el cubo en este juego dinámico en 3D y responsive.",
         "filter": "html games"
     },
@@ -24,7 +24,7 @@
         "judul": "Bonny 3D",
         "kategori": "HTML Games",
         "lokasi": "./img/porfolio/Games/6.svg",
-        "link": "/pages/programacion/rabit/index.html",
+        "link": "https://bironcha9007.github.io/portafolio/pages/programacion/rabit/index.html",
         "deskripsi": "Ayuda al conejo a escapar de sus perseguidores en este emocionante juego. Atraviesa el paisaje en 3D mientras evitas los obstáculos y alcanzas la libertad.",
         "filter": "html games"
     },
@@ -33,7 +33,7 @@
         "judul": "Memoria",
         "kategori": "HTML Games",
         "lokasi": "./img/porfolio/Games/4.svg",
-        "link": "/pages/programacion/memory/index.html",
+        "link": "https://bironcha9007.github.io/portafolio/pages/programacion/memory/index.html",
         "deskripsi": "Ejercita tu mente con este divertido juego de memoria tipo Tangram. Encuentra los pares de cartas correspondientes mientras disfrutas de los desafiantes patrones.",
         "filter": "html games"
     },
@@ -42,7 +42,7 @@
         "judul": "Tetris",
         "kategori": "HTML Games",
         "lokasi": "./img/porfolio/Games/5.svg",
-        "link": "/pages/programacion/tetris/index.html",
+        "link": "https://bironcha9007.github.io/portafolio/pages/programacion/tetris/index.html",
         "deskripsi": "¡Revive la nostalgia del clásico juego de Tetris! Acomoda las piezas que caen para formar líneas completas y evitar que se acumulen hasta alcanzar la cima.",
         "filter": "html games"
     },
@@ -51,7 +51,7 @@
         "judul": "Snake",
         "kategori": "HTML Games",
         "lokasi": "./img/porfolio/Games/3.svg",
-        "link": "https://bironcha9007.github.io/portafolio//pages/programacion/snake/index.html",
+        "link": "https://bironcha9007.github.io/portafolio/pages/programacion/snake/index.html",
         "deskripsi": "Controla a la serpiente en este adictivo juego clásico. Recoge los puntos para hacer crecer a la serpiente, pero ten cuidado de no chocar contra las paredes o tu propia cola.",
         "filter": "html games"
     },
@@ -61,7 +61,7 @@
         "judul": "Chat Navegación",
         "kategori": "Chat Bot",
         "lokasi": "./img/porfolio/login/chat.svg",
-        "link": "/pages/programacion/chat-box-3/index.html",
+        "link": "https://bironcha9007.github.io/portafolio/pages/programacion/chat-box-3/index.html",
         "deskripsi": "Ejercita tu mente con este divertido juego de memoria tipo Tangram. Encuentra los pares de cartas correspondientes mientras disfrutas de los desafiantes patrones.",
         "filter": "chat bot"
     },
@@ -70,7 +70,7 @@
         "judul": "Chat Bot Donnas",
         "kategori": "Chat Bot",
         "lokasi": "./img/porfolio/login/7.svg",
-        "link": "/pages/programacion/chat-box-3/index.html",
+        "link": "https://bironcha9007.github.io/portafolio/pages/programacion/chat-box-3/index.html",
         "deskripsi": "Ejercita tu mente con este divertido juego de memoria tipo Tangram. Encuentra los pares de cartas correspondientes mientras disfrutas de los desafiantes patrones.",
         "filter": "chat bot"
     },
@@ -79,7 +79,7 @@
         "judul": "Login Dog Module",
         "kategori": "Login",
         "lokasi": "./img/porfolio/login/8.svg",
-        "link": "/pages/programacion/login-1/register.html",
+        "link": "https://bironcha9007.github.io/portafolio/pages/programacion/login-1/register.html",
         "deskripsi": "¡Revive la nostalgia del clásico juego de Tetris! Acomoda las piezas que caen para formar líneas completas y evitar que se acumulen hasta alcanzar la cima.",
         "filter": "login"
     },
@@ -89,7 +89,7 @@
         "judul": "Login Animate Module",
         "kategori": "Login",
         "lokasi": "./img/porfolio/login/13.svg",
-        "link": "/pages/programacion/login-2/index.html",
+        "link": "https://bironcha9007.github.io/portafolio/pages/programacion/login-2/index.html",
         "deskripsi": "¡Revive la nostalgia del clásico juego de Tetris! Acomoda las piezas que caen para formar líneas completas y evitar que se acumulen hasta alcanzar la cima.",
         "filter": "login"
     },
@@ -98,7 +98,7 @@
         "judul": "Login Modern Module",
         "kategori": "Login",
         "lokasi": "./img/porfolio/login/14.svg",
-        "link": "/pages/programacion/login-5/register.html",
+        "link": "https://bironcha9007.github.io/portafolio/pages/programacion/login-5/register.html",
         "deskripsi": "¡Revive la nostalgia del clásico juego de Tetris! Acomoda las piezas que caen para formar líneas completas y evitar que se acumulen hasta alcanzar la cima.",
         "filter": "login"
     },
@@ -108,7 +108,7 @@
         "judul": "Cosmic Glow",
         "kategori": "Web Store",
         "lokasi": "./img/porfolio/Website/15.svg",
-        "link": "/pages/cosmic_marzo/index.html",
+        "link": "https://bironcha9007.github.io/portafolio/pages/cosmic_marzo/index.html",
         "deskripsi": "¡Revive la nostalgia del clásico juego de Tetris! Acomoda las piezas que caen para formar líneas completas y evitar que se acumulen hasta alcanzar la cima.",
         "filter": "web store"
     },
@@ -128,7 +128,7 @@
         "judul": "Portafolio Figma",
         "kategori": "Figma Web",
         "lokasi": "./img/porfolio/figma/fi.svg",
-        "link": "/pages/figma/index.html",
+        "link": "https://bironcha9007.github.io/portafolio/pages/figma/index.html",
         "deskripsi": "¡Revive la nostalgia del clásico juego de Tetris! Acomoda las piezas que caen para formar líneas completas y evitar que se acumulen hasta alcanzar la cima.",
         "filter": "figma"
     },
@@ -138,7 +138,7 @@
         "judul": "Matrix Effect",
         "kategori": "JavaScript",
         "lokasi": "./img/porfolio/js/18.svg",
-        "link": "/pages/programacion/MATRIX/index.html",
+        "link": "https://bironcha9007.github.io/portafolio/pages/programacion/MATRIX/index.html",
         "deskripsi": "¡Revive la nostalgia del clásico juego de Tetris! Acomoda las piezas que caen para formar líneas completas y evitar que se acumulen hasta alcanzar la cima.",
         "filter": "javascript"
     },
@@ -147,7 +147,7 @@
         "judul": "Modulo Registro",
         "kategori": "SQL",
         "lokasi": "./img/porfolio/sql/19.svg",
-        "link": "/pages/programacion/login-1/register.html",
+        "link": "https://bironcha9007.github.io/portafolio/pages/programacion/login-1/register.html",
         "deskripsi": "¡Revive la nostalgia del clásico juego de Tetris! Acomoda las piezas que caen para formar líneas completas y evitar que se acumulen hasta alcanzar la cima.",
         "filter": "sql"
     },
@@ -157,7 +157,7 @@
         "judul": "Modulo Python",
         "kategori": "Python",
         "lokasi": "./img/porfolio/py/20.svg",
-        "link": "/pages/programacion/login-1/register.html",
+        "link": "https://bironcha9007.github.io/portafolio/pages/programacion/login-1/register.html",
         "deskripsi": "¡Revive la nostalgia del clásico juego de Tetris! Acomoda las piezas que caen para formar líneas completas y evitar que se acumulen hasta alcanzar la cima.",
         "filter": "python"
     }
