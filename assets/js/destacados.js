@@ -16,7 +16,7 @@ const TRABAJOS = [
     fecha: '16 - Nov - 2023',
     descripcion:
       'Descubre una vista panorámica completa con nuestro módulo de slider 360° para explorar productos desde todos los ángulos.',
-    website: 'https://bironcha9007.github.io/360viewer/index.html',
+    website: 'https://bironcha9007.github.io/360viewer/',
     github: 'https://github.com/bironcha9007/360viewer',
     imagen: './assets/proyectos/360.png'
   },
