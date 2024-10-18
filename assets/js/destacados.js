@@ -26,7 +26,7 @@ const TRABAJOS = [
     fecha: '10 - Dec - 2023',
     descripcion:
       'Explora nuestra tienda en línea: variedad, calidad y comodidad en un solo lugar. ¡Descubre y compra ahora!',
-    website: 'https://github.com/bironcha9007/portafolio/pages/programacion/tiendadonas/index.html',
+    website: 'https://bironcha9007.github.io/portafolio/pages/programacion/tiendadonas/index.html',
     github: 'https://github.com/bironcha9007',
     imagen: './assets/proyectos/ecommerce.png'
   },
