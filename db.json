@@ -51,7 +51,7 @@
         "judul": "Snake",
         "kategori": "HTML Games",
         "lokasi": "./img/porfolio/Games/3.svg",
-        "link": "portafolio/pages/programacion/snake/index.html",
+        "link": "pages/programacion/snake/index.html",
         "deskripsi": "Controla a la serpiente en este adictivo juego clásico. Recoge los puntos para hacer crecer a la serpiente, pero ten cuidado de no chocar contra las paredes o tu propia cola.",
         "filter": "html games"
     },
