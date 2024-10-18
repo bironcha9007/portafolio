@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+body {
+  width: 100%;
+  margin: 0px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+}
+button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  box-shadow: 3px 5px 0px 0px rgba(0,0,0,0.75);
+}
+#counter {
+  color: #ffffff;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+ background: #47474777;
+  padding: 1%;
+  box-shadow: 3px 5px 0px 0px rgba(0,0,0,0.75);
+}
+#end {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+#end button {
+  background-color: red;
+  padding: 20px 50px 20px 50px;
+  font-family: inherit;
+  font-size: inherit;
+}
+#controlls {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+#controlls div {
+  display: grid;
+  grid-template-columns: 100px 100px 100px ;
+  grid-template-rows: auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin: 1%;
+}
+#controlls button {
+  width: 100%;
+  background-color: white;
+  border: 1px solid lightgray;
+}
+#controlls button:first-of-type {
+  grid-column: 1/-1;
+}
+
+
+
+.top-section2 {
+  position: absolute;
+  width: 100%;
+display: flex;
+justify-content: space-evenly;
+}
+
+.logo-image2 {
+
+  max-height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  animation: levitate 1s infinite ease-in-out;
+
+}
+
+
+
+@keyframes levitate {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(5px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.logo-image2:hover {
+  animation: shadow-animation 1s infinite ease-in-out;
+}
