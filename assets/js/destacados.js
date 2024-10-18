@@ -17,7 +17,7 @@ const TRABAJOS = [
     fecha: '03 - Dec - 2023',
     descripcion:
       'Regístrate y accede fácilmente con nuestro módulo de registro e inicio de sesión para una experiencia personalizada.',
-    website: '/pages/programacion/login-1/register.html',
+    website: 'https://bironcha9007.github.io/portafolio/pages/programacion/login-1/register.html',
     github: 'https://github.com/bironcha9007',
     imagen: './assets/proyectos/login.png'
   },
