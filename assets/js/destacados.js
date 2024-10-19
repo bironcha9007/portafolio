@@ -12,7 +12,7 @@ const TRABAJOS = [
     imagen: './assets/proyectos/360.png'
   },
   {
-    nombre: 'Login Module',
+    nombre: 'Street Figthers',
     fecha: '03 - Dec - 2023',
     descripcion:
       'Proyecto de réplica del juego Street Fighter, desarrollado en Phaser 3, HTML, CSS y JavaScript. Incluye controles de joystick, selección de personajes y dinámicas de pelea, proporcionando una experiencia de combate interactiva y emocionante.',
