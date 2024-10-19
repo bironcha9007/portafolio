@@ -62,7 +62,7 @@
         "kategori": "Chat Bot",
         "lokasi": "./img/porfolio/login/chat.svg",
         "link": "https://bironcha9007.github.io/portafolio/pages/programacion/chat-box-3/index.html",
-        "deskripsi": "Ejercita tu mente con este divertido juego de memoria tipo Tangram. Encuentra los pares de cartas correspondientes mientras disfrutas de los desafiantes patrones.",
+        "deskripsi": "Este módulo HTML implementa un chatbot automatizado utilizando JavaScript y Node.js. Integra nodos de conversación, manejo de eventos y respuestas dinámicas, habilitando interacciones en tiempo real mediante APIs y procesamiento asíncrono.",
         "filter": "chat bot"
     },
     {
@@ -71,7 +71,7 @@
         "kategori": "Chat Bot",
         "lokasi": "./img/porfolio/login/7.svg",
         "link": "https://bironcha9007.github.io/portafolio/pages/programacion/chat-box-3/index.html",
-        "deskripsi": "Ejercita tu mente con este divertido juego de memoria tipo Tangram. Encuentra los pares de cartas correspondientes mientras disfrutas de los desafiantes patrones.",
+        "deskripsi": "EChatbot integrado en página de venta de postres online, desarrollado con HTML, JavaScript y Node.js. Facilita atención al cliente automatizada, sugerencias de productos y procesamiento de pedidos en tiempo real mediante API.",
         "filter": "chat bot"
     },
     {
@@ -80,7 +80,7 @@
         "kategori": "Login",
         "lokasi": "./img/porfolio/login/8.svg",
         "link": "https://bironcha9007.github.io/portafolio/pages/programacion/login-1/register.html",
-        "deskripsi": "¡Revive la nostalgia del clásico juego de Tetris! Acomoda las piezas que caen para formar líneas completas y evitar que se acumulen hasta alcanzar la cima.",
+        "deskripsi": "Módulo de login y registro con HTML, CSS, Java y PHP. Proporciona autenticación segura, validación del lado del servidor, gestión de sesiones y acceso controlado, integrando bases de datos para almacenamiento de usuarios.",
         "filter": "login"
     },
 
@@ -90,7 +90,7 @@
         "kategori": "Login",
         "lokasi": "./img/porfolio/login/13.svg",
         "link": "https://bironcha9007.github.io/portafolio/pages/programacion/login-2/index.html",
-        "deskripsi": "¡Revive la nostalgia del clásico juego de Tetris! Acomoda las piezas que caen para formar líneas completas y evitar que se acumulen hasta alcanzar la cima.",
+        "deskripsi": "Módulo de login y registro animado, desarrollado con HTML, CSS, Java y PHP. Incluye efectos visuales interactivos, autenticación segura, validación del servidor y gestión de sesiones, mejorando la experiencia de usuario.",
         "filter": "login"
     },
     {
@@ -99,7 +99,7 @@
         "kategori": "Login",
         "lokasi": "./img/porfolio/login/14.svg",
         "link": "https://bironcha9007.github.io/portafolio/pages/programacion/login-5/register.html",
-        "deskripsi": "¡Revive la nostalgia del clásico juego de Tetris! Acomoda las piezas que caen para formar líneas completas y evitar que se acumulen hasta alcanzar la cima.",
+        "deskripsi": "Módulo de login y registro con diseño moderno y responsivo, desarrollado en HTML, CSS, Java y PHP. Ofrece autenticación segura, validación del servidor, animaciones interactivas y una experiencia optimizada para dispositivos móviles.",
         "filter": "login"
     },
 
@@ -109,7 +109,7 @@
         "kategori": "Web Store",
         "lokasi": "./img/porfolio/Website/15.svg",
         "link": "https://bironcha9007.github.io/portafolio/pages/cosmic_marzo/index.html",
-        "deskripsi": "¡Revive la nostalgia del clásico juego de Tetris! Acomoda las piezas que caen para formar líneas completas y evitar que se acumulen hasta alcanzar la cima.",
+        "deskripsi": "Tienda virtual con carrito de compras y categorías de productos gestionadas por db.json. Desarrollada en JavaScript y CSS, ofrece navegación dinámica, automatización de procesos de compra y actualización en tiempo real del inventario.",
         "filter": "web store"
     },
 
@@ -119,7 +119,7 @@
         "kategori": "React App",
         "lokasi": "./img/porfolio/react/16.svg",
         "link": "https://cinemate-bayronc.netlify.app/",
-        "deskripsi": "¡Revive la nostalgia del clásico juego de Tetris! Acomoda las piezas que caen para formar líneas completas y evitar que se acumulen hasta alcanzar la cima.",
+        "deskripsi": "Proyecto en React que consume API de películas, con Tailwind CSS para diseño, soporte de cambio de tema y gestión de sesión de usuario. Desplegado en Netlify y código alojado en GitHub.",
         "filter": "react app"
     },
 
@@ -129,7 +129,7 @@
         "kategori": "Figma Web",
         "lokasi": "./img/porfolio/figma/fi.svg",
         "link": "https://bironcha9007.github.io/portafolio/pages/figma/index.html",
-        "deskripsi": "¡Revive la nostalgia del clásico juego de Tetris! Acomoda las piezas que caen para formar líneas completas y evitar que se acumulen hasta alcanzar la cima.",
+        "deskripsi": "Portafolio estilo Figma, desarrollado con HTML, CSS3, JavaScript y db.json para gestionar proyectos. Ofrece una interfaz interactiva y dinámica, con datos actualizables en tiempo real y diseño atractivo.",
         "filter": "figma"
     },
 
@@ -139,7 +139,7 @@
         "kategori": "JavaScript",
         "lokasi": "./img/porfolio/js/18.svg",
         "link": "https://bironcha9007.github.io/portafolio/pages/programacion/MATRIX/index.html",
-        "deskripsi": "¡Revive la nostalgia del clásico juego de Tetris! Acomoda las piezas que caen para formar líneas completas y evitar que se acumulen hasta alcanzar la cima.",
+        "deskripsi": "Efecto tipo Matrix desarrollado en JavaScript, que simula una lluvia de caracteres con automatización de partículas. Utiliza animaciones en tiempo real para crear un fondo dinámico e interactivo, replicando la estética icónica de la película.",
         "filter": "javascript"
     },
     {
@@ -148,7 +148,7 @@
         "kategori": "SQL",
         "lokasi": "./img/porfolio/sql/19.svg",
         "link": "https://bironcha9007.github.io/portafolio/pages/programacion/login-1/register.html",
-        "deskripsi": "¡Revive la nostalgia del clásico juego de Tetris! Acomoda las piezas que caen para formar líneas completas y evitar que se acumulen hasta alcanzar la cima.",
+        "deskripsi": "Módulo de login y registro animado, desarrollado con HTML, CSS, Java y PHP. Incluye efectos visuales interactivos, autenticación segura, validación del servidor y gestión de sesiones, mejorando la experiencia de usuario.",
         "filter": "sql"
     },
 
@@ -158,7 +158,7 @@
         "kategori": "Python",
         "lokasi": "./img/porfolio/py/20.svg",
         "link": "https://bironcha9007.github.io/portafolio/pages/programacion/login-1/register.html",
-        "deskripsi": "¡Revive la nostalgia del clásico juego de Tetris! Acomoda las piezas que caen para formar líneas completas y evitar que se acumulen hasta alcanzar la cima.",
+        "deskripsi": "Módulo que agrupa diferentes proyectos en Python, abarcando diversas aplicaciones como análisis de datos, automatización y desarrollo web. Facilita la gestión de proyectos, con documentación y ejemplos de uso para cada implementación.",
         "filter": "python"
     }
     
