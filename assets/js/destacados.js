@@ -1,4 +1,3 @@
-
 const TRABAJOS = [
  
 
@@ -18,7 +17,7 @@ const TRABAJOS = [
     descripcion:
       'Regístrate y accede fácilmente con nuestro módulo de registro e inicio de sesión para una experiencia personalizada.',
     website: 'https://bironcha9007.github.io/portafolio/pages/programacion/login-1/register.html',
-    github: 'https://github.com/bironcha9007',
+    github: 'https://github.com/bironcha9007/portafolio',
     imagen: './assets/proyectos/login.png'
   },
   {
@@ -27,7 +26,7 @@ const TRABAJOS = [
     descripcion:
       'Explora nuestra tienda en línea: variedad, calidad y comodidad en un solo lugar. ¡Descubre y compra ahora!',
     website: 'https://bironcha9007.github.io/portafolio/pages/programacion/tiendadonas/index.html',
-    github: 'https://github.com/bironcha9007',
+    github: 'https://github.com/bironcha9007/portafolio',
     imagen: './assets/proyectos/ecommerce.png'
   },
  
