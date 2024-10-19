@@ -108,7 +108,7 @@
         "judul": "Cosmic Glow",
         "kategori": "Web Store",
         "lokasi": "./img/porfolio/Website/15.svg",
-        "link": "https://bironcha9007.github.io/portafolio/pages/cosmic_marzo/index.html",
+        "link": "https://bironcha9007.github.io/COSMICGLOW2024/index.html",
         "deskripsi": "Tienda virtual con carrito de compras y categorías de productos gestionadas por db.json. Desarrollada en JavaScript y CSS, ofrece navegación dinámica, automatización de procesos de compra y actualización en tiempo real del inventario.",
         "filter": "web store"
     },
