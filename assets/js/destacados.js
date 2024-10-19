@@ -15,10 +15,10 @@ const TRABAJOS = [
     nombre: 'Login Module',
     fecha: '03 - Dec - 2023',
     descripcion:
-      'Regístrate y accede fácilmente con nuestro módulo de registro e inicio de sesión para una experiencia personalizada.',
-    website: 'https://bironcha9007.github.io/portafolio/pages/programacion/login-1/register.html',
-    github: 'https://github.com/bironcha9007/portafolio',
-    imagen: './assets/proyectos/login.png'
+      'Proyecto de réplica del juego Street Fighter, desarrollado en Phaser 3, HTML, CSS y JavaScript. Incluye controles de joystick, selección de personajes y dinámicas de pelea, proporcionando una experiencia de combate interactiva y emocionante.',
+    website: 'https://game22234.netlify.app/',
+    github: 'https://github.com/bironcha9007/game',
+    imagen: './assets/proyectos/street.png'
   },
   {
     nombre: 'eCommerce',
