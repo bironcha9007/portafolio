@@ -1,6 +1,5 @@
 
 
-
 [
     {
         "id": 1,
@@ -170,6 +169,16 @@
         "link": "https://bironcha9007.github.io/portafolio/pages/programacion/tiendadonas/index.html",
         "deskripsi": "Tienda virtual con carrito de compras y categorías de productos gestionadas por db.json. Desarrollada en JavaScript y CSS, ofrece navegación dinámica, automatización de procesos de compra y actualización en tiempo real del inventario.",
         "filter": "web store"
+    },
+
+    {
+        "id": 22,
+        "judul": "Street Figthers Game",
+        "kategori": "HTML Games",
+        "lokasi": "./assets/proyectos/street.png",
+        "link": "https://game22234.netlify.app/",
+        "deskripsi": "Controla a la serpiente en este adictivo juego clásico. Recoge los puntos para hacer crecer a la serpiente, pero ten cuidado de no chocar contra las paredes o tu propia cola.",
+        "filter": "html games"
     }
     
 ]
