@@ -22,7 +22,7 @@ function startAutoChange() {
     autoChange = setInterval(() => {
         currentIndex = (currentIndex + 1) % images.length; // Ciclar entre las imágenes
         mainImage.src = images[currentIndex].getAttribute('src'); // Cambiar la imagen principal
-    }, 4000); // Cambia cada 2 segundos
+    }, 2000); // Cambia cada 2 segundos
 }
 
 // Función para detener el cambio automático

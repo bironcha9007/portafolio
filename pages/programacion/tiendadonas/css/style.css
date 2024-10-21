@@ -290,7 +290,26 @@ p{text-align: justify;}
 .home .image-slider img:hover{
     transform: translateY(-2rem);
 }
+.image-slider2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
 
+.image-slider2 img {
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.image-slider2 img.active {
+    opacity: 1;
+    position: relative;
+}
 .about .row{
     display: flex;
     align-items: center;
@@ -368,26 +387,7 @@ p{text-align: justify;}
     margin-block-start: 0.4em;
     color:var(--main-color);
 }
-.image-slider2 {
-    position: relative;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-}
 
-.image-slider2 img {
-    width: 100%;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: opacity 1s ease-in-out;
-}
-
-.image-slider2 img.active {
-    opacity: 1;
-    position: relative;
-}
 .menu{
     background: url(../image/menu-bg.jpg) no-repeat;
     background-position: center;

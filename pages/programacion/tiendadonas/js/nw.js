@@ -1,3 +1,39 @@
+let imageIndex = 0;
+const images2 = document.querySelectorAll('.image-slider2 img');
+const changeInterval = 4000; // 4 segundos
+
+// Función para cambiar la imagen activa
+function changeImage() {
+    images2.forEach((img, index) => {
+        img.classList.remove('active');
+        if (index === imageIndex) {
+            img.classList.add('active');
+        }
+    });
+    
+    // Incrementar el índice y reiniciar si llega al final
+    imageIndex = (imageIndex + 1) % images2.length;
+}
+
+// Cambiar la imagen automáticamente cada 4 segundos
+let sliderInterval = setInterval(changeImage, changeInterval);
+
+// Asignar el evento de clic a todas las imágenes
+images2.forEach((img) => {
+    img.addEventListener('click', () => {
+        // Verificar si la imagen está activa
+        if (img.classList.contains('active')) {
+            const target = img.getAttribute('data-target'); // Cambiado de data-link a data-target
+            window.location.href = target;  // Redirigir al enlace del data-target
+        }
+    });
+});
+
+// Iniciar el slider con la primera imagen activa
+images2[0].classList.add('active');
+// Iniciar el slider con la primera imagen activa
+
+
 function openNewWindow1() {
     // URL a la que quieres dirigirte
     const url = 'https://bironcha9007.github.io/portafolio/index.html';
@@ -229,35 +265,3 @@ function openNewWindow1() {
     }
 }
 
-let imageIndex = 0;
-const images2 = document.querySelectorAll('.image-slider2 img');
-const changeInterval = 4000; // 4 segundos
-
-// Función para cambiar la imagen activa
-function changeImage() {
-    images2.forEach((img, index) => {
-        img.classList.remove('active');
-        if (index === imageIndex) {
-            img.classList.add('active');
-        }
-    });
-    
-    // Incrementar el índice y reiniciar si llega al final
-    imageIndex = (imageIndex + 1) % images2.length;
-}
-
-// Cambiar la imagen automáticamente cada 4 segundos
-let sliderInterval = setInterval(changeImage, changeInterval);
-
-// Asignar el evento de clic a la imagen activa
-images2.forEach(img => {
-    img.addEventListener('click', () => {
-        if (img.classList.contains('active')) {
-            const link = img.getAttribute('data-link');
-            window.location.href = link;  // Redirigir al enlace del data-link
-        }
-    });
-});
-
-// Iniciar el slider con la primera imagen activa
-images[0].classList.add('active');
