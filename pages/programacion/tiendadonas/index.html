@@ -51,7 +51,7 @@
             <div class="content">
                 <h3>Mini Donas Glow</h3>
                 <div class="subt">Postres y mucho más...</div>
-                <a href="#" class="btn2">Ordena Ahora</a>
+                <a onclick="openNewWindowWS()" target="_blank" class="btn2">Ordena Ahora</a>
             </div>
 
             <div class="image">
@@ -61,13 +61,14 @@
         </div>
 
         <div class="image-slider">
-            <img src="image/LOGODONAS.png" alt="">
-            <img src="image/1.png" alt="">
-            <img src="image/2.png" alt="">
-            <img src="image/3.png" alt="">
-            <img src="image/4.png" alt="">
-            <img src="image/paleta_slide.svg" alt="">
-            <img src="image/sorpresa_slide.svg" alt="">
+            <img src="image/LOGODONAS.png" alt="" >
+            <img src="image/1.png" alt="" data-target="postres">
+            <img src="image/2.png" alt="" data-target="gelatinas">
+            <img src="image/3.png" alt="" data-target="donas">
+            <img src="image/4.png" alt=""  data-target="chocopaletas">
+            <img src="image/sorpresa_slide.svg" alt="" data-target="sorpresas">
+             <!--<img src="image/cosmic.png" alt="" data-target="cosmic">-->
+            
         </div>
 
     </section>
@@ -78,39 +79,53 @@
 
     <section class="about" id="about">
 
-        <h1 class="heading">Antojate<span>¿Qué vas a probar?</span> </h1>
-
+        <h1 class="heading">Antójate <span>¿Qué vas a probar?</span> </h1>
+    
         <div class="row">
-
+    
             <div class="image">
-                <img src="image/md1.png" alt="">
+                <!-- Slider de 4 imágenes con la clase image-slider2 -->
+                <div class="image-slider2">
+                    <img src="image/md1.png" alt="Mini Donas" data-link="https://enlace1.com" class="active">
+                    <img src="image/gt4.png" alt="Gelatinas" data-link="https://enlace2.com">
+                    <img src="image/pt4.png" alt="Postres" data-link="https://enlace3.com">
+                    <img src="image/md4.png" alt="Más Donas" data-link="https://enlace4.com">
+                </div>
             </div>
-
+    
             <div class="content">
                 <h3 class="title">"Delicias Irresistibles"</h3>
                 <p>¡Descubre una explosión de sabor y diversión en cada bocado! Nuestras mini donas son una delicia
                     irresistible, perfectas para satisfacer tus antojos dulces. Sumérgete en un mundo de indulgencia con
                     nuestras exquisitas paletas de chocolate. Además, nuestras anchetas sorpresa son la opción ideal
                     para regalar momentos inolvidables. ¡Haz tu día más dulce con nosotros!</p>
-                <a href="#" class="btn2">CONOCENOS</a>
+                <a href="#" class="btn2">CONÓCENOS</a>
                 <div class="icons-container">
                     <div class="icons">
-                        <img src="image/icdona.png" alt="">
+                        <img src="image/menu-1.png" alt="Mini Donas">
                         <h3>MINI DONAS</h3>
                     </div>
                     <div class="icons">
-                        <img src="image/icpaleta.png" alt="">
-                        <h3>PALETAS</h3>
+                        <img src="image/menu-2.png" alt="Choco Paletas">
+                        <h3>CHOCO PALETAS</h3>
                     </div>
                     <div class="icons">
-                        <img src="image/icsorpresa.png" alt="">
-                        <h3>SORPRESAS</h3>
+                        <img src="image/tp1.png" alt="Postres">
+                        <h3>POSTRES</h3>
+                    </div>
+                    <div class="icons">
+                        <img src="image/gt3.png" alt="Gelatinas">
+                        <h3>GELATINAS</h3>
+                    </div>
+                    <div class="icons">
+                        <img src="image/sorpresa.svg" alt="Anchetas Sorpresa">
+                        <h3>ANCHETAS SORPRESA</h3>
                     </div>
                 </div>
             </div>
-
+    
         </div>
-
+    
     </section>
 
     <!-- about section ends -->
@@ -123,12 +138,13 @@
 
         <div class="box-container">
 
-            <a href="#" class="box">
-                
+            <a href="#" class="box" id="donas">
+
                 <div class="content">
                     <div class="subt2"><img src="image/dona.svg" alt="">
-                    <h3>Mini Donas</h3></div>
-                    
+                        <h3>Mini Donas</h3>
+                    </div>
+
                     <img src="image/md3.png" class="img2">
                     <p>"Deliciosas minidonas recién horneadas, con sabores únicos y decoraciones irresistibles para
                         deleitar tu paladar."</p>
@@ -136,10 +152,12 @@
                 </div>
             </a>
 
-            <a href="#" class="box"> 
-               
+            <a href="#" class="box" id="chocopaletas">
+
                 <div class="content">
-                   <div class="subt2"> <img src="image/paletas.svg" alt=""> <h3>Paletas Oreo</h3></div>
+                    <div class="subt2"> <img src="image/paletas.svg" alt="">
+                        <h3>Paletas Oreo</h3>
+                    </div>
                     <img src="image/cg2.png" class="img2">
                     <p>"Exquisitas paletas de galleta Oreo cubiertas con el más indulgente chocolate, una tentación
                         irresistible."</p>
@@ -147,10 +165,13 @@
                 </div>
             </a>
 
-           <a href="#" class="box">
-                
-                <div class="content"><div class="subt2"><img src="image/sorpresa.svg" alt=""><h3>Sorpresas</h3></div>
-                    <h3>Sorpresas</h3>
+            <a href="#" class="box" id="sorpresas">
+
+                <div class="content">
+                    <div class="subt2"><img src="image/sorpresa.svg" alt="">
+                        <h3>Sorpresas</h3>
+                    </div>
+                   
                     <img src="image/ds.png" class="img2">
                     <p>"Sorprende con anchetas personalizables, llenas de delicias y regalos seleccionados especialmente
                         para cada ocasión especial."</p>
@@ -158,11 +179,13 @@
                 </div>
             </a>
 
-            <a href="#" class="box">
-                
+            <a href="#" class="box" id="postres">
+
                 <div class="content">
-                    <div class="subt2"><img src="image/tp1.png" alt=""><h3>Postres y Tortas</h3></div>
-                    <h3>Postres y Tortas</h3>
+                    <div class="subt2"><img src="image/tp1.png" alt="">
+                        <h3>Postres y Tortas</h3>
+                    </div>
+                
                     <img src="image/pt3.png" class="img2">
                     <p>""Despierta con alegría: Nuestras tortas y postres son la forma perfecta de comenzar el día con
                         gratitud y sabor."</p>
@@ -170,7 +193,7 @@
                 </div>
             </a>
 
-            <a href="#" class="box">
+            <a href="#" class="box"  id="gelatinas">
                 <img src="image/gt3.png" alt="">
                 <div class="content">
                     <h3>Gelatinas</h3>
@@ -180,14 +203,15 @@
                 </div>
             </a>
 
-            <a href="#" class="box">
+            <a href="#" class="box" id="cosmic">
                 <img src="image/cosmicg.svg" alt="">
                 <div class="content">
                     <h3>Cosmic Glow</h3>
                     <img src="image/cosmic_2.svg" class="img2">
                     <p>"Explora nuestra página aliada de maquillaje y descubre una amplia gama de productos de belleza
                         irresistibles."</p>
-                    <span class="btn2" onclick="window.location.href = 'https://bironcha9007.github.io/COSMICGLOW2024/index.html';">visitanos</span>
+                    <span class="btn2"
+                        onclick="window.location.href = 'https://bironcha9007.github.io/COSMICGLOW2024/index.html';">visitanos</span>
                 </div>
             </a>
 
@@ -327,34 +351,13 @@
 
         </div>
 
-        <div class="credit"> created by <a href="https://bironcha9007.github.io/portafolio/index.html">VISUALGRAPHICMD.COM </a> | all rights reserved </div>
+        <div class="credit"> created by <a
+                href="https://bironcha9007.github.io/portafolio/index.html">VISUALGRAPHICMD.COM </a> | all rights
+            reserved </div>
 
     </section>
 
     <!-- footer section ends -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

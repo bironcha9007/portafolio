@@ -228,14 +228,36 @@ function openNewWindow1() {
         });
     }
 }
-document.addEventListener("DOMContentLoaded", function() {
-  const gridItems = document.querySelectorAll('.grid div');
-  
-  gridItems.forEach(item => {
-      item.addEventListener('click', function() {
-          const sectionId = this.getAttribute('data-target-id');
-          scrollToSection(sectionId);
-      });
-  });
+
+let imageIndex = 0;
+const images2 = document.querySelectorAll('.image-slider2 img');
+const changeInterval = 4000; // 4 segundos
+
+// Función para cambiar la imagen activa
+function changeImage() {
+    images2.forEach((img, index) => {
+        img.classList.remove('active');
+        if (index === imageIndex) {
+            img.classList.add('active');
+        }
+    });
+    
+    // Incrementar el índice y reiniciar si llega al final
+    imageIndex = (imageIndex + 1) % images2.length;
+}
+
+// Cambiar la imagen automáticamente cada 4 segundos
+let sliderInterval = setInterval(changeImage, changeInterval);
+
+// Asignar el evento de clic a la imagen activa
+images2.forEach(img => {
+    img.addEventListener('click', () => {
+        if (img.classList.contains('active')) {
+            const link = img.getAttribute('data-link');
+            window.location.href = link;  // Redirigir al enlace del data-link
+        }
+    });
 });
 
+// Iniciar el slider con la primera imagen activa
+images[0].classList.add('active');
