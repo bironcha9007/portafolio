@@ -80,7 +80,7 @@ p{text-align: justify;}
 .btn2{
     display: flex;
     width: 50%;
-    padding:5rem 1.5rem;
+    padding:1rem 1.5rem;
     border-radius: var(--border-radius);
     color:var(--main-colors);
     background: none;
@@ -119,7 +119,9 @@ p{text-align: justify;}
 .header .logo i{
     padding-left: .5rem;
 }
-
+.btnnav{
+    
+}
 .header .navbar a{
     font-family: poppins, sans-serif;
     margin:0 1rem;
@@ -148,7 +150,22 @@ p{text-align: justify;}
     cursor: pointer;
     display: none;
 }
-
+.subt{
+    font-size: 2rem;
+    color:var(--main-colors);
+    text-shadow: 1px 1px 1px rgba(50, 6, 6, 0.5);
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.subt2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
 .home{
     min-height: 50vh;
     padding-top: 5rem;
@@ -192,14 +209,13 @@ p{text-align: justify;}
 
     .subt2 {
         display: flex;
-        justify-content: space-between;
-        align-items: stretch;
-        gap: 105px;
-        
+        justify-content: space-around;
+        align-items: center;
+        gap: 22px;
         flex-wrap: nowrap;
     }
   }
-
+  
 @keyframes float{
     0%, 100%{
         transform: translateY(0rem);
@@ -224,22 +240,7 @@ p{text-align: justify;}
         transform: translateY(-3rem);
     }
 }
-.subt{
-    font-size: 2rem;
-    color:var(--main-colors);
-    text-shadow: 1px 1px 1px rgba(50, 6, 6, 0.5);
-    margin-block-start: 0em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-.subt2 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 5px;
-}
+
 
 .home .row .content h3{
 
@@ -644,7 +645,20 @@ p{text-align: justify;}
 }
 
 @media(max-width:768px){
-
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+        background: #fff;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        padding: 2%;
+        margin: 0%;
+    }
     .heading{
         font-size: 6rem;
     }
@@ -724,10 +738,10 @@ p{text-align: justify;}
     }
 
     .menu .box-container .box img{
-        height: 4rem;
+        height: 6rem;
         margin-left: 0;
-        margin-top: -1rem;
-        margin-bottom: -2rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
     }
 
 }

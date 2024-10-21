@@ -1,9 +1,9 @@
 let imageIndex = 0;
 const images2 = document.querySelectorAll('.image-slider2 img');
-const changeInterval = 4000; // 4 segundos
+const changeInterval2 = 4000; // 4 segundos
 
 // Función para cambiar la imagen activa
-function changeImage() {
+function changeImage2() {
     images2.forEach((img, index) => {
         img.classList.remove('active');
         if (index === imageIndex) {
@@ -16,7 +16,7 @@ function changeImage() {
 }
 
 // Cambiar la imagen automáticamente cada 4 segundos
-let sliderInterval = setInterval(changeImage, changeInterval);
+let sliderInterval = setInterval(changeImage2, changeInterval2);
 
 // Asignar el evento de clic a todas las imágenes
 images2.forEach((img) => {
