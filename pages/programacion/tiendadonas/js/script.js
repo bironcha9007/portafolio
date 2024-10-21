@@ -22,7 +22,7 @@ function startAutoChange() {
     autoChange = setInterval(() => {
         currentIndex = (currentIndex + 1) % images.length; // Ciclar entre las imágenes
         mainImage.src = images[currentIndex].getAttribute('src'); // Cambiar la imagen principal
-    }, 2000); // Cambia cada 2 segundos
+    }, 4000); // Cambia cada 2 segundos
 }
 
 // Función para detener el cambio automático
@@ -51,7 +51,7 @@ mainImage.onclick = () => {
 // Detectar clic fuera de la sección "home" para reiniciar el cambio automático
 document.addEventListener('click', (event) => {
     if (!homeSection.contains(event.target)) {
-        startAutoChange(); // Reiniciar el cambio automático al hacer clic fuera de "home"
+        stopAutoChange(); // Reiniciar el cambio automático al hacer clic fuera de "home"
     }
 });
 

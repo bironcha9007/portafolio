@@ -23,7 +23,7 @@ images2.forEach((img) => {
     img.addEventListener('click', () => {
         // Verificar si la imagen está activa
         if (img.classList.contains('active')) {
-            const target = img.getAttribute('data-target'); // Cambiado de data-link a data-target
+            const target = img.getAttribute('data-target2'); // Cambiado de data-link a data-target
             window.location.href = target;  // Redirigir al enlace del data-target
         }
     });
