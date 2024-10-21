@@ -1,5 +1,6 @@
 
 
+
 [
     {
         "id": 1,
@@ -128,7 +129,7 @@
         "judul": "Portafolio Figma",
         "kategori": "Figma Web",
         "lokasi": "./img/porfolio/figma/fi.svg",
-        "link": "https://bironcha9007.github.io/figma/index.html",
+        "link": "https://bironcha9007.github.io/portafolio/pages/figma/index.html",
         "deskripsi": "Portafolio estilo Figma, desarrollado con HTML, CSS3, JavaScript y db.json para gestionar proyectos. Ofrece una interfaz interactiva y dinámica, con datos actualizables en tiempo real y diseño atractivo.",
         "filter": "figma"
     },
@@ -160,6 +161,15 @@
         "link": "https://bironcha9007.github.io/portafolio/pages/programacion/login-1/register.html",
         "deskripsi": "Módulo que agrupa diferentes proyectos en Python, abarcando diversas aplicaciones como análisis de datos, automatización y desarrollo web. Facilita la gestión de proyectos, con documentación y ejemplos de uso para cada implementación.",
         "filter": "python"
+    },
+    {
+        "id": 21,
+        "judul": "Mini Donas Glow",
+        "kategori": "Web Store",
+        "lokasi": "./img/porfolio/Website/20.svg",
+        "link": "https://bironcha9007.github.io/portafolio/pages/programacion/tiendadonas/index.html",
+        "deskripsi": "Tienda virtual con carrito de compras y categorías de productos gestionadas por db.json. Desarrollada en JavaScript y CSS, ofrece navegación dinámica, automatización de procesos de compra y actualización en tiempo real del inventario.",
+        "filter": "web store"
     }
     
 ]
