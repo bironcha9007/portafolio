@@ -246,11 +246,45 @@
     text-align: center;
     margin-top: 20px;
     display: none; /* Oculto por defecto */
+    margin: 20px;
+    border: none;
+    display: flex;
+    outline: none;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.5vh;
+    border-radius: 15px;
+    text-decoration: none;
+    transform: rotate(-3deg);
+    transition: all 0.5s ease-in;
+    background-color: var(--jet-2);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+
 }
 
 #show-more-btn {
-    padding: 10px 20px;
-    font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  display: none; /* Oculto por defecto */
+  margin: 20px;
+  border: none;
+  display: flex;
+  outline: none;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: bold;
+ width: 80%;
+  border-radius: 15px;
+  text-decoration: none;
+  transform: rotate(-3deg);
+  transition: all 0.5s ease-in;
+  background-color: var(--jet-2);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  justify-content: center;
     cursor: pointer;
 }
   /* responsive tablet */

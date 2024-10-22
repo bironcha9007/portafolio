@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const showMoreBtn = document.getElementById('show-more-btn');
             let showAll = false;
             const maxItems = 4;
+            let currentCategory = 'all'; // Almacenar la categoría actual
 
             function renderProjects(projects) {
                 let cards = '';
@@ -40,14 +41,14 @@ document.addEventListener("DOMContentLoaded", function() {
                         let card = '';
                         card += `<div class="modal-talk">
                                     <div class="modal-header">
-                                        <h3>${ detail.judul }</h3>
+                                        <h3>${detail.judul}</h3>
                                         <span id="span">X</span>
                                         <div class="card-image">
                                             <img src="${detail.lokasi}" alt="${detail.judul}">
                                         </div>
                                     </div>
                                     <div class="modal-body">
-                                        <p class="artikel">${ detail.deskripsi || 'Descripci&oacute;n no disponible' }</p>
+                                        <p class="artikel">${detail.deskripsi || 'Descripción no disponible'}</p>
                                         <button class="project-button" data-link="${detail.link}">Ver Proyecto</button>
                                         <div class="modal-footer">
                                             <button id="close">Cerrar</button>
@@ -70,20 +71,28 @@ document.addEventListener("DOMContentLoaded", function() {
             function toggleShowMore() {
                 showAll = !showAll;
                 const projectsToShow = showAll ? shuffledData : shuffledData.slice(0, maxItems);
-                renderProjects(projectsToShow);
+                const filteredProjects = currentCategory === 'all' ? projectsToShow : filteredDataByCategory(currentCategory, showAll);
+                renderProjects(filteredProjects);
                 showMoreBtn.textContent = showAll ? "Ver Menos" : "Ver Más";
+            }
+
+            function filteredDataByCategory(category, showAll) {
+                const filteredProjects = shuffledData.filter(d => d.filter.toLowerCase() === category.toLowerCase());
+                return showAll ? filteredProjects : filteredProjects.slice(0, maxItems);
             }
 
             showMoreBtn.addEventListener('click', toggleShowMore);
 
             function filterProjects(category) {
-                if (category === 'all') {
+                currentCategory = category; // Actualizar la categoría actual
+                const filteredProjects = category === 'all' ? (showAll ? shuffledData : shuffledData.slice(0, maxItems)) : filteredDataByCategory(category, showAll);
+                renderProjects(filteredProjects);
+
+                // Mostrar el botón "Ver Más" solo si hay más elementos que mostrar
+                if (category === 'all' || filteredProjects.length > maxItems) {
                     showMoreContainer.style.display = 'block';
-                    renderProjects(showAll ? shuffledData : shuffledData.slice(0, maxItems));
                 } else {
                     showMoreContainer.style.display = 'none';
-                    const filteredProjects = shuffledData.filter(d => d.filter.toLowerCase() === category.toLowerCase());
-                    renderProjects(filteredProjects);
                 }
             }
 
@@ -99,6 +108,14 @@ document.addEventListener("DOMContentLoaded", function() {
                     filterProjects(category);
                 });
             });
+
+            // Manejo de navegación desde el Home
+            window.scrollToSection = function(category) {
+                document.getElementById('works').scrollIntoView({ behavior: 'smooth' });
+                filterProjects(category); // Filtrar los proyectos según la categoría seleccionada
+                categoryButtons.forEach(btn => btn.classList.remove('active'));
+                document.querySelector(`button[data-category="${category}"]`).classList.add('active');
+            };
         });
 
     function modals() {
