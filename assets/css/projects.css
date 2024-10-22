@@ -173,10 +173,11 @@
     display: grid;
     place-content: center start;
     font-family: "Quicksand", sans-serif;
+    
   }
   
   .g-works .works-card .card-text h4 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     color: var(--jet-2);
   }
@@ -193,7 +194,17 @@
   }
   
 
-
+  .g-works .works-card .card-text h3 {
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: justify;
+    word-wrap: break-word;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
   .g-works .works-card .card-text a {
     margin: 20px;
     border: none;
@@ -577,15 +588,17 @@ gap: 0% 5%;
       align-items: center;
       margin-right: 0px;
 
-      justify-items: center;
+      justify-items:stretch;
       margin: 5% 2%;
 
     }
     .g-works .works-card .card-text h4 {
       word-wrap: break-word;
       letter-spacing: 1.2px;
-      font-size: 1.0rem;
+      line-height: 1.1;
+      font-size: 1.2rem;
       margin-top: 5px;
+      text-align: left;
       
     }
   
@@ -593,9 +606,19 @@ gap: 0% 5%;
  
       font-size: 0.8rem;
       letter-spacing:0.1px;
-      margin: 3%;
+      margin: 5% 0%  10%;
     }
-  
+    .g-works .works-card .card-text h3 {
+      color: #ffffff;
+      margin-top: 5px;
+      font-size: 0.8rem;
+      margin-bottom: 10px;
+      text-align: justify;
+      word-wrap: break-word;
+      letter-spacing: 1.5px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
     .g-works .works-card .card-text a {
       margin: 3%;
       border: none;

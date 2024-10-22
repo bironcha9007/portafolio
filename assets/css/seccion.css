@@ -135,7 +135,7 @@
     text-align: justify;
     color: white;
     color: white;
-    white-space: pre-line;
+
   }
   .seccion2 .caja .caja__iconos {
     display: flex;
@@ -453,7 +453,7 @@
     text-align: justify;
     color: white;
     color: white;
-    white-space: pre-line;
+
   }
   .seccion2 .caja__contenido2 {
     font-size: 3rem;
