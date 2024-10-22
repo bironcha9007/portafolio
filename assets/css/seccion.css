@@ -125,6 +125,8 @@
     color: white;
     color: var(--jet-2);
     transition: 0.5s ease-in;
+    margin-bottom: 5%;
+    line-height: 1.2;
   }
   .seccion2 .caja__contenido label:hover {
     color: var(--white);
