@@ -60,7 +60,7 @@
         "id": 9,
         "judul": "Chat Navegación",
         "kategori": "Chat Bot",
-        "lokasi": "./img/porfolio/login/chat.svg",
+        "lokasi": "./img/porfolio/login/chat.jpg",
         "link": "https://bironcha9007.github.io/portafolio/pages/programacion/chat-box-3/index.html",
         "deskripsi": "Este módulo HTML implementa un chatbot automatizado utilizando JavaScript y Node.js. Integra nodos de conversación, manejo de eventos y respuestas dinámicas, habilitando interacciones en tiempo real mediante APIs y procesamiento asíncrono.",
         "filter": "chat bot"
@@ -69,7 +69,7 @@
         "id": 10,
         "judul": "Chat Bot Donnas",
         "kategori": "Chat Bot",
-        "lokasi": "./img/porfolio/login/7.svg",
+        "lokasi": "./img/porfolio/login/7.jpg",
         "link": "https://bironcha9007.github.io/portafolio/pages/programacion/chat-box-3/index.html",
         "deskripsi": "EChatbot integrado en página de venta de postres online, desarrollado con HTML, JavaScript y Node.js. Facilita atención al cliente automatizada, sugerencias de productos y procesamiento de pedidos en tiempo real mediante API.",
         "filter": "chat bot"
@@ -78,7 +78,7 @@
         "id": 11,
         "judul": "Login Dog Module",
         "kategori": "Login",
-        "lokasi": "./img/porfolio/login/8.svg",
+        "lokasi": "./img/porfolio/login/8.png",
         "link": "https://bironcha9007.github.io/portafolio/pages/programacion/login-1/register.html",
         "deskripsi": "Módulo de login y registro con HTML, CSS, Java y PHP. Proporciona autenticación segura, validación del lado del servidor, gestión de sesiones y acceso controlado, integrando bases de datos para almacenamiento de usuarios.",
         "filter": "login"
@@ -97,7 +97,7 @@
         "id": 14,
         "judul": "Login Modern Module",
         "kategori": "Login",
-        "lokasi": "./img/porfolio/login/14.svg",
+        "lokasi": "./img/porfolio/login/14.jpg",
         "link": "https://bironcha9007.github.io/portafolio/pages/programacion/login-5/register.html",
         "deskripsi": "Módulo de login y registro con diseño moderno y responsivo, desarrollado en HTML, CSS, Java y PHP. Ofrece autenticación segura, validación del servidor, animaciones interactivas y una experiencia optimizada para dispositivos móviles.",
         "filter": "login"
@@ -107,7 +107,7 @@
         "id": 15,
         "judul": "Cosmic Glow",
         "kategori": "Web Store",
-        "lokasi": "./img/porfolio/Website/15.svg",
+        "lokasi": "./img/porfolio/Website/15.png",
         "link": "https://bironcha9007.github.io/COSMICGLOW2024/index.html",
         "deskripsi": "Tienda virtual con carrito de compras y categorías de productos gestionadas por db.json. Desarrollada en JavaScript y CSS, ofrece navegación dinámica, automatización de procesos de compra y actualización en tiempo real del inventario.",
         "filter": "web store"
@@ -117,7 +117,7 @@
         "id": 16,
         "judul": "React Movie App",
         "kategori": "React App",
-        "lokasi": "./img/porfolio/react/16.svg",
+        "lokasi": "./img/porfolio/react/16.jpg",
         "link": "https://cinemate-bayronc.netlify.app/",
         "deskripsi": "Proyecto en React que consume API de películas, con Tailwind CSS para diseño, soporte de cambio de tema y gestión de sesión de usuario. Desplegado en Netlify y código alojado en GitHub.",
         "filter": "react app"
@@ -146,7 +146,7 @@
         "id": 19,
         "judul": "Modulo Registro",
         "kategori": "SQL",
-        "lokasi": "./img/porfolio/sql/19.svg",
+        "lokasi": "./img/porfolio/sql/19.jpg",
         "link": "https://bironcha9007.github.io/portafolio/pages/programacion/login-1/register.html",
         "deskripsi": "Módulo de login y registro animado, desarrollado con HTML, CSS, Java y PHP. Incluye efectos visuales interactivos, autenticación segura, validación del servidor y gestión de sesiones, mejorando la experiencia de usuario.",
         "filter": "sql"
@@ -156,7 +156,7 @@
         "id": 20,
         "judul": "Modulo Python",
         "kategori": "Python",
-        "lokasi": "./img/porfolio/py/20.svg",
+        "lokasi": "./img/porfolio/py/20.jpg",
         "link": "https://bironcha9007.github.io/portafolio/pages/programacion/login-1/register.html",
         "deskripsi": "Módulo que agrupa diferentes proyectos en Python, abarcando diversas aplicaciones como análisis de datos, automatización y desarrollo web. Facilita la gestión de proyectos, con documentación y ejemplos de uso para cada implementación.",
         "filter": "python"
@@ -165,7 +165,7 @@
         "id": 21,
         "judul": "Mini Donas Glow",
         "kategori": "Web Store",
-        "lokasi": "./img/porfolio/Website/20.svg",
+        "lokasi": "./img/porfolio/Website/20.png",
         "link": "https://bironcha9007.github.io/portafolio/pages/programacion/tiendadonas/index.html",
         "deskripsi": "Tienda virtual con carrito de compras y categorías de productos gestionadas por db.json. Desarrollada en JavaScript y CSS, ofrece navegación dinámica, automatización de procesos de compra y actualización en tiempo real del inventario.",
         "filter": "web store"
