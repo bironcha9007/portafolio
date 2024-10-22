@@ -70,17 +70,25 @@ document.addEventListener("DOMContentLoaded", function() {
 
             function toggleShowMore() {
                 showAll = !showAll;
+                
+                // Filtra los proyectos según la categoría seleccionada y si está activo "ver más"
                 const projectsToShow = showAll ? shuffledData : shuffledData.slice(0, maxItems);
                 const filteredProjects = currentCategory === 'all' ? projectsToShow : filteredDataByCategory(currentCategory, showAll);
+                
                 renderProjects(filteredProjects);
+                
+                // Actualiza el texto del botón
                 showMoreBtn.textContent = showAll ? "Ver Menos" : "Ver Más";
+                
+                // Desplazarse hacia la parte superior de la sección "works"
+                document.getElementById('works').scrollIntoView({ behavior: 'smooth' });
             }
-
+            
             function filteredDataByCategory(category, showAll) {
                 const filteredProjects = shuffledData.filter(d => d.filter.toLowerCase() === category.toLowerCase());
                 return showAll ? filteredProjects : filteredProjects.slice(0, maxItems);
             }
-
+            
             showMoreBtn.addEventListener('click', toggleShowMore);
 
             function filterProjects(category) {
