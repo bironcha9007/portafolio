@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </div>
                                 <div class="card-text">
                                     <h4>${d.judul}</h4>
-                                    <p>${d.kategori}</p>
+                                    <h3>${d.kategori}</h3>
                                     <p>${d.deskripsi}</p>
                                     <a class="cuy" data-id="${d.id}">Ver Mas</a>
                                 </div>
