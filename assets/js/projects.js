@@ -93,11 +93,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
             function filterProjects(category) {
                 currentCategory = category; // Actualizar la categoría actual
-                const filteredProjects = category === 'all' ? (showAll ? shuffledData : shuffledData.slice(0, maxItems)) : filteredDataByCategory(category, showAll);
+            
+                // Filtrar los proyectos según la categoría seleccionada
+                const filteredProjects = category === 'all'
+                    ? (showAll ? shuffledData : shuffledData.slice(0, maxItems)) // Limitar solo en "all"
+                    : shuffledData.filter(d => d.filter.toLowerCase() === category.toLowerCase()); // Mostrar todos en otras categorías
+            
                 renderProjects(filteredProjects);
-
-                // Mostrar el botón "Ver Más" solo si hay más elementos que mostrar
-                if (category === 'all' || filteredProjects.length > maxItems) {
+            
+                // Mostrar el botón "Ver Más" solo en "all" si hay más de maxItems
+                if (category === 'all' && shuffledData.length > maxItems) {
                     showMoreContainer.style.display = 'block';
                 } else {
                     showMoreContainer.style.display = 'none';
@@ -143,11 +148,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Función para mezclar un arreglo aleatoriamente
     function shuffleArray(array) {
-        const shuffledArray = [...array];
-        for (let i = shuffledArray.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
-        }
-        return shuffledArray;
+        return array.sort(() => Math.random() - 0.5);
     }
 });
