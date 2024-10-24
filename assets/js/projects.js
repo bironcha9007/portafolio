@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 // Desplazar solo si se selecciona "Ver Menos"
                 if (!showAll) {
-                    document.getElementById('works').scrollIntoView({ behavior: 'smooth' });
+                    document.getElementById('works2').scrollIntoView({ behavior: 'smooth' });
                 }
             }
 
