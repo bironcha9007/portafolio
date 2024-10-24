@@ -2,13 +2,12 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch('db.json')
         .then(response => response.json())
         .then(data => {
-            // Mezcla el arreglo de datos aleatoriamente
-            const shuffledData = shuffleArray(data);
+            const shuffledData = shuffleArray(data); // Mezclar el arreglo aleatoriamente
             const tempat = document.querySelector('.works-list');
             const showMoreContainer = document.querySelector('.show-more-container');
             const showMoreBtn = document.getElementById('show-more-btn');
             let showAll = false;
-            const maxItems = 4;
+            const maxItems = 3; // Limitar inicialmente a 3 items en todas las categorías
             let currentCategory = 'all'; // Almacenar la categoría actual
 
             function renderProjects(projects) {
@@ -70,47 +69,54 @@ document.addEventListener("DOMContentLoaded", function() {
 
             function toggleShowMore() {
                 showAll = !showAll;
-                
-                // Filtra los proyectos según la categoría seleccionada y si está activo "ver más"
+
+                // Filtrar los proyectos según la categoría seleccionada y el estado de "Ver Más"
                 const projectsToShow = showAll ? shuffledData : shuffledData.slice(0, maxItems);
                 const filteredProjects = currentCategory === 'all' ? projectsToShow : filteredDataByCategory(currentCategory, showAll);
-                
+
                 renderProjects(filteredProjects);
-                
-                // Actualiza el texto del botón
+
+                // Actualizar el texto del botón
                 showMoreBtn.textContent = showAll ? "Ver Menos" : "Ver Más";
-                
-                // Desplazarse hacia la parte superior de la sección "works"
-                document.getElementById('works').scrollIntoView({ behavior: 'smooth' });
+
+                // Desplazar solo si se selecciona "Ver Menos"
+                if (!showAll) {
+                    document.getElementById('works').scrollIntoView({ behavior: 'smooth' });
+                }
             }
-            
+
             function filteredDataByCategory(category, showAll) {
                 const filteredProjects = shuffledData.filter(d => d.filter.toLowerCase() === category.toLowerCase());
                 return showAll ? filteredProjects : filteredProjects.slice(0, maxItems);
             }
-            
+
             showMoreBtn.addEventListener('click', toggleShowMore);
 
             function filterProjects(category) {
                 currentCategory = category; // Actualizar la categoría actual
-            
-                // Filtrar los proyectos según la categoría seleccionada
-                const filteredProjects = category === 'all'
-                    ? (showAll ? shuffledData : shuffledData.slice(0, maxItems)) // Limitar solo en "all"
-                    : shuffledData.filter(d => d.filter.toLowerCase() === category.toLowerCase()); // Mostrar todos en otras categorías
-            
-                renderProjects(filteredProjects);
-            
-                // Mostrar el botón "Ver Más" solo en "all" si hay más de maxItems
-                if (category === 'all' && shuffledData.length > maxItems) {
+
+                let filteredProjects;
+                if (category === 'all') {
+                    // Filtrar para "all" y verificar si mostrar el botón "Ver Más"
+                    filteredProjects = shuffledData;
+                } else {
+                    // Filtrar los proyectos según la categoría seleccionada
+                    filteredProjects = shuffledData.filter(d => d.filter.toLowerCase() === category.toLowerCase());
+                }
+
+                // Mostrar u ocultar el botón "Ver Más" si hay más de 3 proyectos
+                if (filteredProjects.length > maxItems) {
                     showMoreContainer.style.display = 'block';
                 } else {
                     showMoreContainer.style.display = 'none';
                 }
+
+                // Mostrar 3 proyectos inicialmente y manejar el estado "Ver Más"
+                renderProjects(showAll ? filteredProjects : filteredProjects.slice(0, maxItems));
             }
 
             // Inicializa mostrando todos los proyectos
-            renderProjects(shuffledData);
+            filterProjects('all');
 
             const categoryButtons = document.querySelectorAll('.works-button button');
             categoryButtons.forEach(button => {
