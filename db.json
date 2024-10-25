@@ -128,7 +128,7 @@
         "judul": "Portafolio Figma",
         "kategori": "Figma Web",
         "lokasi": "./img/porfolio/figma/fi.jpg",
-        "link": "https://bironcha9007.github.io/portafolio/pages/figma/index.html",
+        "link": "https://bironcha9007.github.io/figma/index.html",
         "deskripsi": "Portafolio estilo Figma, desarrollado con HTML, CSS3, JavaScript y db.json para gestionar proyectos. Ofrece una interfaz interactiva y dinámica, con datos actualizables en tiempo real y diseño atractivo.",
         "filter": "figma"
     },
