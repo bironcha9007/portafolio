@@ -187,16 +187,17 @@
 .seccion3__contenedor .proyecto .contenido .contenedor-botones {
   display: flex;
   gap: 1rem;
-  width:95%;
+  width: 80%;
   bottom: 2.5rem;
   position: absolute;
   height: max-content;
+  justify-content: center;
 }
 .seccion3__contenedor .proyecto .contenido .contenedor-botones button {
   background: white;
   background: white;
   border: none;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem;
   border-radius: 0.5rem;
   cursor: pointer;
   transition: 0.3s;
@@ -370,8 +371,9 @@
     }
   .seccion3__contenedor .proyecto .contenido .contenedor-datos .nombre {
     font-size: 1.2rem;
-    line-height: 1.5;
+    line-height: 1;
     white-space: pre-line;
+    text-align: center;
 
   }
 }
