@@ -47,9 +47,11 @@ document.addEventListener("DOMContentLoaded", function() {
                                         </div>
                                     </div>
                                     <div class="modal-body">
+                                 
                                         <p class="artikel">${detail.deskripsi || 'Descripción no disponible'}</p>
-                                        <button class="project-button" data-link="${detail.link}">Ver Proyecto</button>
+                                        
                                         <div class="modal-footer">
+                                        <button class="project-button" data-link="${detail.link}">Ver</button>
                                             <button id="close">Cerrar</button>
                                         </div> 
                                     </div>
