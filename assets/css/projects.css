@@ -390,7 +390,7 @@
 }
 
 .modal .modal-talk .modal-header h3 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -869,11 +869,12 @@
   .modal .modal-talk {
     width: 90vw;
     padding: 0.5rem 0.5rem;
-    height: 90vh;
+    height: 80vh;
+    border-radius: 20px 20px 20px 20px;
   }
 
   .modal .modal-talk .modal-header h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .modal .modal-talk .modal-body .form-group input,
@@ -884,7 +885,13 @@
   .modal .modal-footer button {
     padding: 0.5em 1em;
   }
+  .artikel {
+    text-align: justify;
+    word-wrap: break-word;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
 
+  }
   .theme {
     margin: 100px 20px;
   }
@@ -954,4 +961,56 @@
     margin-top: 3%;
     margin-bottom: 0%;
   }
+
+  .modal .modal-talk .modal-header .card-image img {
+    margin: 10px 0px;
+    width: 100%;
+    padding: 0px 0;
+   
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+}
+}
+
+
+@media screen and (max-width: 950px) {
+ 
+.modal .modal-talk {
+  width: 90vw;
+  padding: 0.5rem 0.5rem;
+  height: 80vh;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.modal .modal-talk .modal-header h3 {
+  font-size: 1.3rem;
+}
+
+.modal .modal-talk .modal-body .form-group input,
+textarea {
+  padding: 0.5em 1em;
+}
+
+.modal .modal-footer button {
+  padding: 0.5em 1em;
+}
+.artikel {
+  text-align: justify;
+  word-wrap: break-word;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+
+}
+.theme {
+  margin: 100px 20px;
+}
+
+.modal .modal-talk .modal-header .card-image img {
+  margin: 10px 0px;
+  width: 100%;
+  padding: 0px 0;
+
+  border-radius: 20px 20px 20px 20px;
+  overflow: hidden;
+}
 }
