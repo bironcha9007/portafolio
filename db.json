@@ -179,6 +179,16 @@
         "link": "https://game22234.netlify.app/",
         "deskripsi": "Proyecto de réplica del juego Street Fighter, desarrollado en Phaser 3, HTML, CSS y JavaScript.",
         "filter": "html games"
+    },
+
+    {
+        "id": 16,
+        "judul": "React Web Shop",
+        "kategori": "React App",
+        "lokasi": "./img/porfolio/react/reactws.jpg",
+        "link": "https://cosmic-glow-app.netlify.app/",
+        "deskripsi": "Tienda online desarrollada en React, con base de datos integrada para gestión de productos, inicio de sesión seguro y carrito de compras en tiempo real. Ofrece una experiencia de compra intuitiva y personalizada.",
+        "filter": "react app"
     }
     
 ]
