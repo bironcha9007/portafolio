@@ -182,6 +182,28 @@ function openNewWindow1() {
       // Es posible que el navegador bloquee la apertura de ventanas emergentes
       
     }
+    
+  }
+
+  
+  function openNewWindowHV() {
+    // Mensaje que deseas agregar al final de la URL
+
+  
+    // URL a la que quieres dirigirte
+    const url = `https://drive.google.com/file/d/13ufQ-7pwdMY7CMgZ5KvuiI6G6GqXbYpI/view?usp=drive_link`;
+  
+    // Abre una nueva ventana con la URL proporcionada y algunos ajustes opcionales
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer');
+  
+    // Verifica si la ventana emergente se abrió correctamente
+    if (newWindow) {
+      // La ventana emergente se abrió con éxito
+      newWindow.focus(); // Enfoca la nueva ventana
+    } else {
+      // Es posible que el navegador bloquee la apertura de ventanas emergentes
+      
+    }
   }
   function scrollToSectiona(sectionId) {
     const targetElement = document.getElementById(sectionId);
