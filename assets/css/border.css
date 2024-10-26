@@ -38,18 +38,18 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #a8ff00; /* Verde manzana para el pulgar */
+    background-color: rgb(0, 198, 10); /* Verde manzana para el pulgar */
     border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #8fd000; /* Verde manzana oscuro para hover */
+    background-color:rgb(0, 125, 6);; /* Verde manzana oscuro para hover */
 }
 
 /* Para Firefox */
 * {
     scrollbar-width: thin;
-    scrollbar-color: #a8ff00 #000000;
+    scrollbar-color: rgb(0, 198, 10) #000000;
 }
 .about{
     margin: 0px;
