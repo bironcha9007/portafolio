@@ -169,7 +169,7 @@ function openNewWindow1() {
 
   
     // URL a la que quieres dirigirte
-    const url = `https://visualgraphicmd.com.co`;
+    const url = `https://bironcha9007.github.io/portafolio/index.html`;
   
     // Abre una nueva ventana con la URL proporcionada y algunos ajustes opcionales
     const newWindow = window.open(url, '_blank', 'noopener,noreferrer');
