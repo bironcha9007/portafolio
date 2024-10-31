@@ -191,7 +191,7 @@ function openNewWindow1() {
 
   
     // URL a la que quieres dirigirte
-    const url = `https://drive.google.com/file/d/13ufQ-7pwdMY7CMgZ5KvuiI6G6GqXbYpI/view?usp=drive_link`;
+    const url = `https://drive.google.com/file/d/1_4xaC4mQs_7lEAXIwu6La13Yqi6L96L2/view?usp=drive_link`;
   
     // Abre una nueva ventana con la URL proporcionada y algunos ajustes opcionales
     const newWindow = window.open(url, '_blank', 'noopener,noreferrer');
