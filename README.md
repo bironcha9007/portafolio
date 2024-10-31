@@ -30,7 +30,6 @@ bash
 Copiar código
 git clone https://github.com/bironcha9007/portfolio.git
 
-Navega y explora en localhost:3000.
 📧 Contacto
 ¿Quieres colaborar o discutir un proyecto? No dudes en contactarme:
 
@@ -40,7 +39,7 @@ GitHub: github.com/bironcha9007/
 📌 Contribuciones
 ¡Agradezco cualquier sugerencia o mejora! Si quieres contribuir, puedes hacer un fork del repositorio, trabajar en tu propia rama y enviar un pull request.
 
-🎨 Vista Previa
+🎨 Vista Previa  https://bironcha9007.github.io/portafolio/index.html
 
 Explora, navega y observa cómo mis habilidades y proyectos pueden ser útiles en tus futuros desarrollos.
 
