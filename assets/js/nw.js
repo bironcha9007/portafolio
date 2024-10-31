@@ -185,6 +185,25 @@ function openNewWindow1() {
     
   }
 
+  function openNewWindowPF() {
+    // Mensaje que deseas agregar al final de la URL
+
+  
+    // URL a la que quieres dirigirte
+    const url = `https://drive.google.com/file/d/1TMogMv4eraQRvi3LW344TggZ2FmHt1wy/view`;
+  
+    // Abre una nueva ventana con la URL proporcionada y algunos ajustes opcionales
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer');
+  
+    // Verifica si la ventana emergente se abrió correctamente
+    if (newWindow) {
+      // La ventana emergente se abrió con éxito
+      newWindow.focus(); // Enfoca la nueva ventana
+    } else {
+      // Es posible que el navegador bloquee la apertura de ventanas emergentes
+      
+    }
+  }
   
   function openNewWindowHV() {
     // Mensaje que deseas agregar al final de la URL
