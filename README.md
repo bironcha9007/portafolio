@@ -34,9 +34,9 @@ Navega y explora en localhost:3000.
 📧 Contacto
 ¿Quieres colaborar o discutir un proyecto? No dudes en contactarme:
 
-Email: bayroncastillo@email.com
-LinkedIn: linkedin.com/in/bayroncastillo
-GitHub: github.com/bironcha9007
+Email: bayroncastillo900725@gmail.com
+LinkedIn: [linkedin.com/in/bayroncastillo](https://www.linkedin.com/in/bayroncastillovg/)
+GitHub: github.com/bironcha9007/
 📌 Contribuciones
 ¡Agradezco cualquier sugerencia o mejora! Si quieres contribuir, puedes hacer un fork del repositorio, trabajar en tu propia rama y enviar un pull request.
 
